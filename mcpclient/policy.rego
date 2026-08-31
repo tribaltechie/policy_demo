@@ -6,7 +6,7 @@ default allow := true
 
 allow := false if  {
   lower(input.parsed_body.params.name) == "getcustomerbytelno" 
-  lower(input.parsed_body.params.arguments.tel_no) == "286-804-1767" 
+  lower(input.parsed_body.params.arguments.tel_no) == "944-802-8273" 
 }
 
 result["allowed"] := allow
