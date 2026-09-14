@@ -12,4 +12,4 @@ allow := false if  {
 body := "SmartVerify: Request blocked by policy" if not allow
 
 result["allowed"] := allow
-
+result["body"] := body
